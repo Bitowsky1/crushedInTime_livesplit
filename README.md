@@ -1,7 +1,7 @@
 # "Crushed In Time" - Autosplitter for LiveSplit
 
 ## Supported game versions
-Currently, this autosplitter works with every version of Crushed In Time. **However it's only viable with the Any% run**.
+Currently, this autosplitter works with every version of Crushed In Time. **However, it only works with the Any% runs**.
 
 ## Autosplitter's Way of Working:
 
