@@ -17,8 +17,8 @@ In case of some issues, you can reach out to me on the [Speedrun Discord Server 
 
 ## Credits
 
-Autosplitter created by [Bitowsky](https://bitowsky.com)
-Additional testing by [Xcvazer](https://www.youtube.com/@Xcvazer)
+- Autosplitter created by [Bitowsky](https://bitowsky.com)
+- Additional testing by [Xcvazer](https://www.youtube.com/@Xcvazer)
 
 ## Disclaimer
 
