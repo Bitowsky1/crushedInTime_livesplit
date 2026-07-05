@@ -1,4 +1,4 @@
-# "Crushed In Time" - Autosplitter for LiveSplit
+# [Crushed In Time](https://store.steampowered.com/app/3858650/Crushed_In_Time/) - Autosplitter for LiveSplit
 
 ## Supported game versions
 Currently, this autosplitter works with every version of Crushed In Time. **However, it only works with the Any% runs**.
@@ -6,7 +6,7 @@ Currently, this autosplitter works with every version of Crushed In Time. **Howe
 ## Autosplitter's Way of Working:
 
 - Automatically start upon releasing the save slot button.
-- Can split by each chapter, including prologue. If you will go with that option, **you can download the splits from this repository**.
+- Can split by each chapter, including prologue. If you will go with that option, **you can download the splits from this repository or from the [resources on speedrun.com](https://www.speedrun.com/pl-PL/Crushed_in_Time/resources/0bgrs)**.
 - Ends the run, upon finishing the last interactable action. (Spinning the Watson with Proto Sherlock and Proto Watson)
 
 ## Reporting issues
@@ -19,6 +19,10 @@ In case of some issues, you can reach out to me on the [Speedrun Discord Server 
 
 - Autosplitter created by [Bitowsky](https://bitowsky.com)
 - Additional testing by [Xcvazer](https://www.youtube.com/@Xcvazer)
+
+## Other links
+
+- [Speedrun.com page](https://www.speedrun.com/pl-PL/Crushed_in_Time)
 
 ## Disclaimer
 
