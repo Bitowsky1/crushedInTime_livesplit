@@ -2,18 +2,24 @@
 // Created by Bitowsky (https://bitowsky.com)
 // More info: https://github.com/Bitowsky1/crushedInTime_livesplit
 
-// Autosplitter Version: 1.1
-// Up with game version v1.0.6037
-// Updated on: 28.07.2026
+// Autosplitter Version: 1.2
+// Up with game version v1.0.6323
+// Updated on: 05.11.2026
 
 
 state("CrushedInTime")
 {
-	int currChapter : "GameAssembly.dll", 0x05EA3B98, 0xB8, 0x8, 0xD0, 0xC0, 0xB0, 0x98, 0x48;
-	int canSkip : "GameAssembly.dll", 0x5F49A68, 0xB8, 0x10, 0x198, 0x30, 0x108, 0x0, 0xF18;
+	int currChapter : "GameAssembly.dll", 0x05D821F8, 0xA0, 0x78, 0x20, 0xC0, 0xD0, 0x98, 0x48;
+	int canSkip : "GameAssembly.dll", 0x05D0C348, 0xA0, 0x178, 0x40, 0x270, 0x148, 0x38, 0x2B0;
+	string256 lastDialogue : "UnityPlayer.dll", 0x02260D68, 0x18, 0x0, 0x0;
+	bool inMainMenu: "GameAssembly.dll", 0x05D776D0, 0x48, 0x40, 0xA0, 0x0, 0x18, 0x3F0, 0x68;
+	
+	// (Broken, as of version v1.0.6323 [October 28th 2026])
+	// int currChapter : "GameAssembly.dll", 0x05EA3B98, 0xB8, 0x8, 0xD0, 0xC0, 0xB0, 0x98, 0x48;
+	// int canSkip : "GameAssembly.dll", 0x5F49A68, 0xB8, 0x10, 0x198, 0x30, 0x108, 0x0, 0xF18;
 	// int canSkip : "UnityPlayer.dll", 0x21F5A98, 0x8, 0x168, 0x30, 0x40, 0x20, 0x298; (there were multiple addresses to this, but this one broke around chapter 7-8, and it returned an invalid value, so I replaced it with the one above)
-	string256 lastDialogue : "UnityPlayer.dll", 0x2218AE0, 0x8, 0x0;
-	bool inMainMenu: "GameAssembly.dll", 0x5ED44D8, 0x78, 0xB8, 0x80, 0x18, 0x3F0, 0x10, 0xA8;
+	// string256 lastDialogue : "UnityPlayer.dll", 0x2218AE0, 0x8, 0x0;
+	//bool inMainMenu: "GameAssembly.dll", 0x5ED44D8, 0x78, 0xB8, 0x80, 0x18, 0x3F0, 0x10, 0xA8;
 	
 	
 	// (Broken, as of version v1.0.6037 [July 17th 2026])
@@ -79,7 +85,7 @@ update {
         print("LAST DIALOGUE: " + current.lastDialogue);
     }
 	
-	if (current.lastDialogue == null) {
-		print("lastDialogue is NULL");
-	}
+	//if (current.lastDialogue == null) {
+	//	print("lastDialogue is NULL");
+	//}
 }
